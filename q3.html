@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="q2.css">
+    
+    <title>Order list</title>
+    <style>
+        ol li{
+            color: green;
+        }
+        li:nth-child(2)
+        {
+            color:#a49ec1;
+        }
+        body{
+            background-image: url(data:image/jpeg;base64,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);
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body >
+    <ol>
+        <li> My favorite food</li>
+        <li> my food</li>
+
+    </ol>
+    <ol>
+        <li>this is my  food</li>
+        <li>my food</li>
+    </ol>
+   <p>
+    this is my list.My list is based upon food which i like
+   </p>
+    
+</body>
+</html>
